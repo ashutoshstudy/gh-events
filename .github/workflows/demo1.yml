@@ -1,5 +1,6 @@
 name: Events Demo 1
-on: ...
+run-name: ${{ github.actor }} is learning GitHub Actions
+on: [push]
 jobs:
   deploy:
     runs-on: ubuntu-latest
